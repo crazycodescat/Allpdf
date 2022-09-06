@@ -1,0 +1,121 @@
+body{
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  text-align: center;
+  width: auto;
+  height: 922px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+img{
+  width: 248.391px;
+  height: 300px;
+  padding: 0;
+  margin-bottom: 100px;
+}
+
+h1{
+  font-family: 'Antonio', sans-serif;
+  font-size:.8in;
+  position: relative;
+  bottom: 150px;
+}
+
+input{
+  width: 80%;
+  height: 55px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 3px solid red;
+  position: relative;
+  bottom: 150px;
+}
+
+input[placeholder="Search Pdf By title/author name"]{
+  text-align: center;
+}
+
+input:hover{
+  border: 3px solid black;
+}
+
+button{
+  cursor: pointer;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  color: black;
+  font-size: 1.5em;
+  border: none;
+  position: relative;
+  bottom: 150px;
+}
+
+nav{
+  width: 40%;
+  height: 60px;
+  position: relative;
+  margin-top: 40px
+  /*border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-radius: 5px
+background-color: white;*/
+}
+
+.it-books{
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 10px;
+  background-color: transparent;
+  padding: 5px;
+  border: 3px solid red;
+  color: black;
+  display: inline-block;
+  position: relative;
+  right: 15%;
+  border-radius: 5px;
+}
+
+.Networking-Books{
+  text-decoration: none;
+  font-size: 20px;
+  background-color: transparent;
+  padding: 5px;
+  margin-right: 10px;
+  color: black;
+  display: inline-block;
+  position: relative;
+  right: 15%;
+}
+
+.Hacking-Books{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  color: black;
+  display: inline-block;
+  position: relative;
+  right: 15%;
+}
+
+a:hover{
+  background-color: transparent;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+button:hover{
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+h4{
+  position: relative;
+  top: 80px;
+  right:45%;
+  margin: 0;
+}
